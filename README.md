@@ -60,4 +60,3 @@ https://github.com/Valenciatv001/Expo-App.git
 
    Alternatively, you can press `a` to open the app in an Android emulator or `i` to open it in an iOS simulator if you have them set up.
 
-That's it! Your friend should now be able to clone, install dependencies, and start your Expo app. If there are any specific instructions or configurations needed for your app, make sure to include them in your documentation.
