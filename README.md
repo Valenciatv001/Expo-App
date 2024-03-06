@@ -1,6 +1,12 @@
 https://github.com/Valenciatv001/Expo-App.git
 
-Certainly! Here's a brief guide you can share with your friend on how to clone, install dependencies, and start your Expo app:
+### The below is the current user login details 
+
+   ```bash
+   email: jixsid
+   Password: 1234
+   ```
+
 
 ### Cloning the Repository:
 
