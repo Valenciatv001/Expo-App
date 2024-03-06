@@ -26,16 +26,12 @@ exports.signup = async (req, res) => {
 
     // Save the user to the database
     await newUser.save();
-    res.json({ user: newUser.toObject() });
+ 
+    res.json({ message: "User registration successful" });
   } catch (error) {
     console.error("Error during user registration", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
-  //   res.json({ message: "User registration successful" });
-  // } catch (error) {
-  //   console.error("Error during user registration", error);
-  //   res.status(500).json({ error: "Internal Server Error" });
-  // }
 };
 
 exports.login = async (req, res) => {

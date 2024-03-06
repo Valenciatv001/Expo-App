@@ -7,6 +7,12 @@ https://github.com/Valenciatv001/Expo-App.git
    Password: 1234
    ```
 
+   
+   ```bash
+   email: london
+   Password: 2264
+   ```
+
 
 ### Cloning the Repository:
 

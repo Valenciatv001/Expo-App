@@ -20,47 +20,7 @@ const LoginScreen = ({ navigation }) => {
   const [error, setError] = useState("");
   const [user, setUser] = useState(null);
 
-  // const handleLogin = async () => {
-  //   if (!email || !password) {
-  //     setError("Fields are compulsory");
-  //     return;
-  //   } else {
-  //     try {
-  //       const res = await axios.post(
-  //         `${API_URL}/api/auth/login`,
-  //         {
-  //           email,
-  //           password,
-  //         },
-  //         {
-  //           withCredentials: true,
-  //           headers: {
-  //             "Content-Type": "application/json",
-  //             Accept: "application/json",
-  //           },
-  //         }
-  //       );
-
-  //       const token = res.data.token;
-  //       console.log(token)
-
-  //       const decoded = jwtDecode(token);
-  //       console.log(decoded)
-  //       setUser(decoded?.userInfo);
-  //       // navigation.navigate("Main", {
-  //       //   user: decoded?.userInfo,
-  //       // });
-  //       navigation.navigate("Main", {
-  //         screen: "Profile", // Navigate to the 'Profile' screen
-  //         params: { user }, // Pass the user data
-  //       });
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-    
-  // };
-
+ 
   const handleLogin = async () => {
     if (!email || !password) {
       setError("Fields are compulsory");
